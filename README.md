@@ -2,10 +2,10 @@
 
 ## Introduction
 
-A blog that allows a user to create, read, update, delete (CRUD) a post
-It has a comment system , tagging functionality and allow uses to share posts by email.
-It has a custom sitemap and feed for posts.
-The user is capable of searching a particular post.
+A blog that allows a user to create, read, update, delete (CRUD) a post. 
+It has a comment system , tagging functionality and allow uses to share posts by email. 
+It has a custom sitemap and feed for posts. 
+The user is capable of searching a particular post. 
 
 Our tech stack will include the following:
 
@@ -20,33 +20,32 @@ Our tech stack will include the following:
 ```sh
 ├── README.md
 ├── blog
-|   ├── __pycache__
-|   ├── migrations
-|   ├── static
-|   ├── templates
-|   ├── templatetags
-|   ├── __init__.py
-|   ├── admin.py
-|   ├── apps.py
-|   ├── feed.py
-|   ├── forms.py
-|   ├── models.py
-|   ├── sitemaps.py
-|   ├── tests.py
-|   └── urls.py
-|
-| 
+├   ├── __pycache__
+├   ├── migrations
+├   ├── static
+├   ├── templates
+├   ├── templatetags
+├   ├── __init__.py
+├   ├── admin.py
+├   ├── apps.py
+├   ├── feed.py
+├   ├── forms.py
+├   ├── models.py
+├   ├── sitemaps.py
+├   ├── tests.py
+├   └── urls.py
+├
 └── mysite
-|   ├── __pycache__
-|   ├── __init__.py
-|   ├── settings.py
-|   ├── urls.py
-|   └──wsgi.py
-|   
+├   ├── __pycache__
+├   ├── __init__.py
+├   ├── settings.py
+├   ├── urls.py
+├   └──wsgi.py
+├   
 └── mysite
-│
+├
 └── db.sqlite3
-│
+├
 └── manage.py
 
 ```
@@ -81,6 +80,8 @@ source env/bin/activate
 ```
 
 2. **Run the development server:**
+
+```
 
 ```
 python manage.py runserver
